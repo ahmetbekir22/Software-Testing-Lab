@@ -1,0 +1,1 @@
+This repo contains all lab task that ı have complated in my Software Testing Lecture
