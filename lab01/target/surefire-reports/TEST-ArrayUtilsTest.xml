@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ArrayUtilsTest" time="0.031" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/test-classes:/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/classes:/Users/ahmetbekir/.m2/repository/org/assertj/assertj-core/3.15.0/assertj-core-3.15.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/ahmetbekir/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/ahmetbekir/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/surefire/surefirebooter5133280323362750020.jar /Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/surefire 2025-04-11T17-06-37_625-jvmRun1 surefire16789317650714670468tmp surefire_017455872083576750137tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/test-classes:/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/classes:/Users/ahmetbekir/.m2/repository/org/assertj/assertj-core/3.15.0/assertj-core-3.15.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/ahmetbekir/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/ahmetbekir/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/ahmetbekir/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/ahmetbekir/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ahmetbekir"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01/target/surefire/surefirebooter5133280323362750020.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="ahmetbekir"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ahmetbekir/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/3r/yx6ctz957m198spbm9bd1_5w0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/ahmetbekir/Library/Mobile Documents/com~apple~CloudDocs/Lectures/3rdYyear/computerVision/softwareTesting/lab01"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ahmetbekir/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="findLastIndex_startEqualsLength_validSearch" classname="ArrayUtilsTest" time="0.011"/>
+  <testcase name="findLastIndex_allSameElements" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_startJustBeyondLength_adjustsProperly" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_multipleMatches_returnsLastBeforeStart" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_nullArray_returnsNegativeOne" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="findLastIndex_searchFromMiddle_returnsLastIndexBeforeStart" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_emptyArray_returnsNegativeOne" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_singleElementOne_returnZero" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="testMain_runsWithoutException" classname="ArrayUtilsTest" time="0.004"/>
+  <testcase name="findLastIndex_negativeStart_returnsNegativeOne" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_startBeyondLength_searchesFromEnd" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_forLoopBehaviour_test" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_withBoundaryValues" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_matchAtFirstIndexOnly" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="findLastIndex_similarButNotEqualValues_returnsNegativeOne" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_valueNotPresent_returnsNegativeOne" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_specificIndexValue_test" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="findLastIndex_startAtZero_returnsNegativeOne" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_matchAtStart_highStartIndex" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="findLastIndex_valuePresent_returnsLastIndex" classname="ArrayUtilsTest" time="0"/>
+</testsuite>
